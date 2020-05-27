@@ -1,0 +1,255 @@
+body {
+  background-color: #060606;
+}
+.doxpaste {
+  width: 40%;
+  padding: 10px;
+  text-align: left;
+  box-sizing:border-box;
+  position: fixed;
+  background-color: #060606;
+  height: 50vh;
+}
+.doxlistdate {
+
+}
+.activepageid {
+color: white;
+float: left;
+min-width: 30px;
+min-height: 30px;
+padding-top: 5px;
+text-decoration: none;
+transition: background-color .3s;
+border: solid 1px #878787;
+margin: 0 4px 1px;
+text-align: center;
+background-color: #a0a0a0;
+color: white;
+border: solid 1px #a0a0a0;
+cursor: not-allowed;
+}
+
+
+
+  .pageid {
+  color: white;
+  float: left;
+  min-width: 30px;
+  min-height: 30px;
+  padding-top: 5px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: solid 1px #878787;
+  margin: 0 4px 1px;
+  text-align: center;
+  }
+.doxmenufull {
+  width:50%;
+  height: 100%;
+  float:right;
+  top: -0px;
+  padding: 10px;
+  text-align: left;
+  background-color: #060606;
+
+}
+.doxmenufullposts {
+  width:50%;
+  height: 100%;
+  float:right;
+  top: -0px;
+  padding: 2px;
+  text-align: left;
+  background-color: #060606;
+}
+.doxmenurecent {
+
+  width:100%;
+  padding: 2px;
+  text-align: left;
+}
+
+textarea{
+  width: 100%;
+  height: 45vh;
+  margin: 5px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #8B0000;
+  border-radius: 4px;
+  background-color: #1d1f21;
+  resize: none;
+  color: #8B0000;
+}
+pre{
+      box-sizing: border-box;
+      border: 2px solid #8B0000;
+      border-radius: 4px;
+      background-color: #1d1f21;
+      color: #8B0000;
+      float: left;
+      width: 50%;
+}
+input {
+    box-sizing: border-box;
+    border: 2px solid #8B0000;
+    border-radius: 4px;
+    background-color: #1d1f21;
+    color: #8B0000;
+	text-align: left;
+}
+
+
+hr {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.containerdoxbinfully {
+height: 80%;
+width: 80%;
+margin:auto;
+overflow: none;
+position: relative;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+a {
+color: #8B0000;
+}
+a:link {
+color: #8B0000;
+}
+a:visited {
+color: #8B0000;
+}
+a:hover {
+color: #BFFF00;
+}
+p {
+color: #8B0000;
+}
+::selection {
+  color: #32CD32;
+  background: #800080;
+}
+
+.doxtagger {
+    position: relative;
+    top: -133px;
+    left: 190px;
+    width: 45%;
+    float: left;
+
+}
+
+.qrcodediv {
+float: left;
+}
+
+.postbutton {
+  position: relative;
+  top: -113px;
+  float: left;
+  margin-left: 205px;
+  right: 0px;
+}
+
+hr {
+height: 1px;
+background-color: #8B0000;
+border: none;
+
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: black;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #8B0000;
+}
+
+@media only screen and (max-width: 768px) {
+  .doxmenurecent {
+    display: none;
+  }
+  .doxmenufull {
+    display: none;
+  }
+  .doxpaste {
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+    box-sizing:border-box;
+    position: fixed;
+    background-color: #060606;
+    height: 50vh;
+  }
+}
+
+#qrcodeid {
+	border: 2px;
+	border-style: solid;
+	border-color: darkred;
+	position: relative;
+    left: 210px;
+    bottom: 190px;
+}
+
+#removalkey {
+	width: 144px;
+}
+
+#viewcounter {
+	position: relative;
+    left: 376px;
+    bottom: 130px;
+	color: darkred;
+}
+#keywrong {
+	color: darkred;
+	font-size: 14px;
+
+}
+
+#removalkeybutton {
+  left: 158px;
+}
+
+#doxauthor {
+    color: darkred;
+    position: relative;
+    right: -378px;
+    bottom: 130px;
+}
